@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="button_settings">Paramétres</string>
+    <string name="button_close">Fermer</string>
+    <string name="button_disable">Ne plus afficher</string>
+    <string name="dialog_content">Il est recommanadé de désactiver l\'économie de batterie pour cette application, afin de recevoir les notifications sans délais.</string>
+    <string name="dialog_title">Optimisation</string>
+</resources>
