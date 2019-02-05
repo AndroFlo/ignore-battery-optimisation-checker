@@ -1,7 +1,9 @@
 <h1 align="center">IgnoreBatteryOptimisationChecker<a href="https://github.com/AndroFlo/IgnorebatteryoptimisationcheckerApp#how-to-include"><img src="https://jitpack.io/v/javiersantos/AppUpdater.svg"></a></h1>
 <h4 align="center">Android Library</h4>
+<h3 align="center">This library is a fork of <a href="https://github.com/javiersantos/AppUpdater">AppUpdated</a></h3>
 
-<p align="center">Android Library that checks for updates on Google Play, GitHub, Amazon, F-Droid or your own server. This library notifies your apps' updates by showing a Material dialog, Snackbar or notification. Check out the <a href="https://github.com/javiersantos/AppUpdater/wiki">wiki</a>.</p>
+
+<p align="center">Android Library that checks fif our application is whitelisted in the system battery saver. If not by default a dialog is displayed and the user can clic on the "Settings" button to launch the ACTION_IGNORE_BATTERY_OPTIMIZATION_SETTINGS intent. </p>
 
 
 ## How to include
@@ -22,10 +24,6 @@ dependencies {
 ```
 
 ## Usage
-
-### Activity / Fragment
-By default, the basic usage will show a default dialog when a new version is found on the Play Store (otherwise nothing will be shown). By calling the `.check()` method, the library will work in background. You can cancel it at any time by calling `.stop()`. Other customizations are explained below.
-
 ```Kotlin
 IgnoreBatteryOptimisationChecker(this)
                 .check()
