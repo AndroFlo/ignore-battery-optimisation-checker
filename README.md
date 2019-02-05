@@ -1,4 +1,4 @@
-<h1 align="center">IgnoreBatteryOptimisationChecker<a href="https://github.com/AndroFlo/IgnorebatteryoptimisationcheckerApp#how-to-include"><img src="https://jitpack.io/v/javiersantos/AppUpdater.svg"></a></h1>
+<h1 align="center">IgnoreBatteryOptimisationChecker<a href="https://github.com/AndroFlo/IgnorebatteryoptimisationcheckerApp"><img src="https://jitpack.io/v/AndroFlo/IgnorebatteryoptimisationcheckerApp.svg"></a></h1>
 <h4 align="center">Android Library</h4>
 <h3 align="center">This library is a fork of <a href="https://github.com/javiersantos/AppUpdater">AppUpdated</a></h3>
 
