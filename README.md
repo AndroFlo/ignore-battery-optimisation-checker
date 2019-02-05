@@ -19,7 +19,7 @@ repositories {
 And add the library to your module **build.gradle**:
 ```Gradle
 dependencies {
-    implementation 'com.github.AndroFlo:IgnorebatteryoptimisationcheckerApp:1.0'
+     implementation 'com.github.AndroFlo:ignore-battery-optimisation-checker:1.0.1'
 }
 ```
 
@@ -28,6 +28,8 @@ dependencies {
 IgnoreBatteryOptimisationChecker(this)
                 .check()
 ```
+
+![ignore-battery-optimisation-checker](https://github.com/AndroFlo/ignore-battery-optimisation-checker/blob/master/screenshot_dialog.png)
 
 ## License
 	Copyright 2019 Audigué Florian
